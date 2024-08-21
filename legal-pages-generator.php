@@ -1,9 +1,10 @@
 <?php
 /*
-Plugin Name: Legal Pages Generator
+Plugin Name: Legalizados
 Description: Plugin para generar automáticamente las páginas de "Aviso Legal" y "Política de Privacidad" basadas en un formulario unificado.
 Version: 1.0
 Author: Albert Navarro
+Author URI: https://www.linkedin.com/in/albert-n-579261256/
 */
 
 // Registrar los estilos del plugin
