@@ -1,0 +1,49 @@
+/* Estilos generales para el formulario del plugin */
+.legal-pages-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.legal-pages-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.legal-pages-form input[type="text"],
+.legal-pages-form input[type="email"],
+.legal-pages-form input[type="date"],
+.legal-pages-form input[type="radio"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.legal-pages-form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.legal-pages-form input[type="submit"] {
+    background-color: #0073aa;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.legal-pages-form input[type="submit"]:hover {
+    background-color: #005a87;
+}
